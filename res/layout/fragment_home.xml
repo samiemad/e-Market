@@ -1,0 +1,102 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:grid="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <android.support.v7.widget.GridLayout
+        android:id="@+id/choice_grid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="4dp"
+        grid:alignmentMode="alignBounds"
+        grid:columnCount="2"
+        grid:rowOrderPreserved="false"
+        grid:useDefaultMargins="true" >
+
+        <include
+            android:layout_width="0dp"
+            android:layout_height="@dimen/cardHeightBig"
+            grid:layout_columnSpan="2"
+            grid:layout_columnWeight="1"
+            grid:layout_gravity="fill_horizontal"
+            layout="@layout/card_burger"
+            android:background="#FF33B5E5"
+            android:gravity="center" />
+
+        <include
+            android:layout_width="0dp"
+            android:layout_height="@dimen/cardHeightNormal"
+            grid:layout_columnWeight="1"
+            grid:layout_gravity="fill_horizontal"
+            layout="@layout/card_icecream"
+            android:background="#FF33B5E5"
+            android:gravity="center" />
+
+        <include
+            android:layout_width="0dp"
+            android:layout_height="@dimen/cardHeightNormal"
+            grid:layout_columnWeight="1"
+            grid:layout_gravity="fill_horizontal"
+            layout="@layout/card_food1"
+            android:background="#FF33B5E5"
+            android:gravity="center" />
+
+        <include
+            android:layout_width="0dp"
+            android:layout_height="@dimen/cardHeightBig"
+            grid:layout_columnSpan="2"
+            grid:layout_columnWeight="1"
+            grid:layout_gravity="fill_horizontal"
+            layout="@layout/card_sandwich"
+            android:background="#FF33B5E5"
+            android:gravity="center" />
+
+        <include
+            android:layout_width="00dp"
+            android:layout_height="@dimen/cardHeightNormal"
+            grid:layout_columnWeight="1"
+            grid:layout_gravity="fill_horizontal"
+            layout="@layout/card_drinks"
+            android:background="#FF33B5E5"
+            android:gravity="center" />
+
+        <include
+            android:layout_width="0dp"
+            android:layout_height="@dimen/cardHeightNormal"
+            grid:layout_columnWeight="1"
+            grid:layout_gravity="fill_horizontal"
+            layout="@layout/card_fruits"
+            android:background="#FF33B5E5"
+            android:gravity="center" />
+
+        <include
+            android:layout_width="0dp"
+            android:layout_height="@dimen/cardHeightNormal"
+            grid:layout_columnWeight="1"
+            grid:layout_gravity="fill_horizontal"
+            layout="@layout/card_meat"
+            android:background="#FF33B5E5"
+            android:gravity="center" />
+
+        <include
+            android:layout_width="0dp"
+            android:layout_height="@dimen/cardHeightNormal"
+            grid:layout_columnWeight="1"
+            grid:layout_gravity="fill_horizontal"
+            layout="@layout/card_category"
+            android:background="#FF33B5E5"
+            android:gravity="center" />
+
+        <include
+            android:layout_width="0dp"
+            android:layout_height="@dimen/cardHeightBig"
+            grid:layout_columnSpan="2"
+            grid:layout_columnWeight="1"
+            grid:layout_gravity="fill_horizontal"
+            layout="@layout/card_category"
+            android:background="#FF33B5E5"
+            android:gravity="center" />
+    </android.support.v7.widget.GridLayout>
+
+</ScrollView>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- menu & app bar -->
+    <string name="action_search">Search</string>
+    <string name="action_cart">Cart</string>
+
+    <!-- activitiy titles -->
+    <string name="app_name">EMarket</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_market_select">nearby stores:</string>
+    <string name="title_activity_item_select">available Items</string>
+    <string name="title_activity_item_info">Information</string>
+    <string name="title_locationDialog">Select your location</string>
+
+    <!-- market activity -->
+    <string name="title_market1">Orange Mall</string>
+    <string name="title_market2">City Center Lattakia</string>
+    <string name="title_market3">Tartus Mall</string>
+    <string name="title_market4">Qassion Mall</string>
+    <string name="desc_market1">Located in Latakia, Syria. and is one of the biggest malls in the coast area.</string>
+    <string name="desc_market2">Located in Latakia, Syria. has a very good location close to the vital locations in the city and offers great offers.</string>
+    <string name="desc_market3">Located in Tartus, Syria. The Bride of Syrian shores. ofers many good products and a diversity of shops</string>
+    <string name="desc_market4">Located in Damascus, Syria. one of the most crouded and useful malls in Damascus. You are sure to enjoy your time there.</string>
+
+    <!-- items activity -->
+    <string name="title_item1">Cheese Pizza</string>
+    <string name="title_item2">Margarita Pizza</string>
+    <string name="title_item3">KFC Meal</string>
+    <string name="title_item4">King Burger</string>
+    <string name="desc_item1">cheasy pizza with very delicious and tasty crisp.</string>
+    <string name="desc_item2">A light pizza with olive oil, garlic, fresh basil, fresh tomatoes, mozzarella and Parmesan cheeses.</string>
+    <string name="desc_item3">A home-cooked meal you don\'t need to cook. Choose from a variety of our classic chicken-on-the-bone favorites.</string>
+    <string name="desc_item4">Enjoy one of our famous burgers, Four Cheese Whopper, Ultimate Bacon Cheeseburger, Whopper Sandwich, Double Whopper.</string>
+
+    <!-- main activity -->
+    <string name="title_category1">Meats</string>
+    <string name="title_category2">Cheese and milk</string>
+    <string name="title_category3">Drinks</string>
+    <string name="title_category4">Fruits and Vegetables</string>
+    <string name="desc_category1">bacon, chicken, and all other types of meat</string>
+    <string name="desc_category2">Cheese, milk, youghart, and others</string>
+    <string name="desc_category3">Natural Juice, Cola, Alcoholic drinks and other</string>
+    <string name="desc_category4">Oranges, Apples, Banana, and others.</string>
+
+    <!-- messages and errors -->
+    <string name="error_starting_maps_title">Error starting maps</string>
+    <string name="error_starting_maps_info">Your device does not have maps application.\nPlease install google maps or any equivalent application and try again!</string>
+    <string name="error_play_services_title">Error starting maps</string>
+    <string name="error_play_services_info">Sorry, Google Play services are not available on your device.\nPlease update google play services to the latest version via Play store and try again!</string>
+    <string name="error_pass_incorrect">Password or username is incorrect!</string>
+
+    <!-- layout strings -->
+    <string name="welcomeToEMart">Welcome to E-Mart</string>
+    <string name="price">Price: $50</string>
+    <string name="yourEmail">Your Email:</string>
+    <string name="yourEmailHint">Enter your email address here</string>
+    <string name="yourEmailConfirmHint">Confirm your email address</string>
+    <string name="password">Password:</string>
+    <string name="passwordHint">Enter your password here</string>
+    <string name="passwordConfirmHint">Confirm your password</string>
+    <string name="login">Login</string>
+    <string name="passwordTesting">for testing: use password \'password\' to login</string>
+    <string name="registerText">New to E-Mart?\nRegister a new account instead:</string>
+    <string name="alreadyHaveAccountText">Already Have an account?\nLogin using an existing account instead:</string>
+    <string name="register">Register a new account</string>
+    <string name="locationDialog_title">choose the location where to deliver your buyings</string>
+    <string name="cancel">Cancel</string>
+    <string name="addNewLocation">Add a new Place</string>
+    <string name="select">Select</string>
+    <string name="dismiss">Dismiss</string>
+
+    <!-- recept Dialog -->
+    <string name="receptDialog_title">Your order was received</string>
+    <string name="receptDialog_receptNum_title">your recept number:</string>
+    <string name="receptDialog_receptNum">A430</string>
+    <string name="receptDialog_eta_title">Expected time of dilevery:</string>
+    <string name="receptDialog_eta">25 minutes</string>
+    <string name="receptDialog_price_title">total price:</string>
+    <string name="receptDialog_price">$250</string>
+    <string name="receptDialog_info">your request was received and is being processed at the moment. Please wait a moment and your order will be ready to be delivered to * soon, you can check your order status in the history page. </string>
+
+    <!-- arrays for testing -->
+    <string-array name="locations">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Kids\' School</item>
+    </string-array>
+
+    <string name="title_activity_home">e-Market</string>
+    <string name="navHome">Home</string>
+    <string name="navDeals">Best Deals</string>
+    <string name="navFavs">Favourites</string>
+    <string name="navCart">My Shopping Cart</string>
+    <string name="navMyAccount">My Account</string>
+    <string name="navLogout">Logout</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+
+    <!-- cards -->
+    <string name="card_burger">Burgers</string>
+    <string name="card_drinks">Coctails</string>
+    <string name="card_drinks2">Drinks</string>
+    <string name="card_drinks3">Natural Juices</string>
+    <string name="card_drinks4">Soda</string>
+    <string name="card_food1">Indian Food</string>
+    <string name="card_food2">Sea Food</string>
+    <string name="card_fruits">Tropical Fruits</string>
+    <string name="card_fruits2">Fruits</string>
+    <string name="card_icecream">Ice-Cream</string>
+    <string name="card_meat1">Light Meat</string>
+    <string name="card_meat2">Red Meat</string>
+    <string name="card_pizza1">Pizza</string>
+    <string name="card_pizza2">Cheese Pizza</string>
+    <string name="card_pizza3">Olive Pizza</string>
+    <string name="card_pizza4">Meat Pizza</string>
+    <string name="card_sandwitch">Sandwitches</string>
+    <string name="card_strawberries">Strawberries</string>
+    <string name="card_mall1">Dubai Mall</string>
+    <string name="card_mall2">Sharjah Mall</string>
+    <string name="card_mall3">Sharm Al-Shikh Mall</string>
+    <string name="title_activity_splash">s</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

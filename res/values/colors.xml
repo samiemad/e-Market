@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primary">#CDDC39</color>
+    <color name="primary_dark">#A0B02B</color>
+    <color name="primary_light">#F0F4C3</color>
+    <color name="accent">#FF5722</color>
+    <color name="primary_text">#216121</color>
+    <color name="secondary_text">#72A272</color>
+    <color name="icons">#212121</color>
+    <color name="divider">#B6B6B6</color>
+    <color name="background">#EBFEDB</color>
+    <color name="backgroundNavDrawer">#9B6E2B</color>
+    <color name="selector_normal">#2196F3</color>
+    <color name="selector_pressed">#BBDEFB</color>
+    <color name="darkShadow">#A0504020</color>
+    
+<!--     old unused colors -->
+    <color name="indigo_300">#7986CB</color>
+    <color name="indigo_500">#3F51B5</color>
+    <color name="indigo_700">#303F9F</color>
+    <color name="pink_a200">#FF4081</color>
+
+    
+    <color name="primaryorg">#F19623</color>
+    <color name="primary_darkorg">#D97612</color>
+    <color name="primary_lightorg">#FBDEDB</color>
+    <color name="dividerorg">#A69686</color>
+    <color name="iconsorg">#FFFFFF</color>
+    <color name="accentorg">#FF1742</color>
+    <color name="primary_textorg">#414121</color>
+    <color name="secondary_textorg">#828272</color>
+    
+</resources>
